@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* background-image: url("https://content.jdmagicbox.com/v2/comp/mumbai/i7/022pxx22.xx22.190326194007.s5i7/catalogue/bandra-sea-view-bandra-west-mumbai-tourist-attraction-rjf8fofyjm.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form{
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 1000;
+background: white !important;
+}
+input{
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.div-container{
+  margin: 0.5rem 0;
+  width: 80%;
+}
+
+.div-container input{
+  margin-top: 0.5rem;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  padding: 0.7rem 0.5rem !important;
+  border: 1px solid black;
+}
+.div-container label,h1{
+  color: black;
+}
+
+/* button{
+  display: block;
+  margin: 1rem auto !important;
+  border-radius:8px;
+  padding: 0.7rem;
+  background-color: black;
+  border: none;
+  margin-bottom: 10px !important;
+  width: 80%;
+  color: white;
+ } */

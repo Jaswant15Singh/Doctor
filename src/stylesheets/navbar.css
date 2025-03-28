@@ -1,0 +1,51 @@
+
+.headernav{
+    margin: 0;
+    padding:0.5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3fbbc0;
+    color: white;
+    align-items: center;
+}
+
+.headernav{
+    display: flex;
+    align-items: center;
+    margin:0;
+    padding: 0.5rem 4rem;
+}
+
+.headernav p{
+    margin: 0;
+    padding: 0;
+}
+.headernavtwo{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 4rem;
+    align-items: center;
+    align-items: center;
+}
+
+.headernavtwo img{
+    width: 7rem;
+    height: 2rem;
+}
+
+.headernavtwo ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+}
+
+.headernavtwo button{
+    padding:0.7rem 1rem;
+    background-color: #3fbbc0;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,84 @@
+.home{
+    background-image: url(../assets/Banner.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+}
+.home-description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    padding: 3rem;
+    gap: 1rem;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.home-description h1{
+    font-size: 2.5rem;
+    color: rgb(65, 64, 64);
+}
+
+.home-description p{
+    font-weight: lighter;
+}
+
+.home-description button{
+    background-color: #3fbbc0;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-cards{
+    margin: 0 4rem !important;
+}
+
+.home-cards .card-data{
+    position: relative;
+    background-color: #f6f0f0;
+    width: 100%;
+    padding: 2rem 0 1rem 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    box-shadow: 3px -1px 27px -4px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    cursor: pointer;
+    /* overflow: hidden; */
+}
+
+.home-cards .card-data::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    background-color: #3fbbc0; 
+    z-index: 0;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.home-cards .card-data:hover::before{
+    height: 100%;
+}
+.home-cards .card-data * {
+    position: relative;
+    z-index: 1;
+}
+
+.home-emergency{
+    background-color: #3fbbc0; 
+    padding: 3rem 12rem;
+}
